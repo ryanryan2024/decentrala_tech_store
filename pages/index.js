@@ -27,11 +27,11 @@ export default function Home() {
                 "Any sufficiently advanced technology is indistinguishable from magic." - Arthur C. Clarke
             </div>
             <Tab.Group>
-                <Tab.List className="flex justify-between px-5 bg-white text-black p-3 rounded-3xl text-sm">
-                    <Tab>Apple ©</Tab>
-                    <Tab>Meta ©</Tab>
-                    <Tab>Gaming & Consoles - COMING SOON</Tab>
-                    <Tab className="px-5">Drones & Cameras - COMING SOON</Tab>
+                <Tab.List className="flex justify-between px-2 bg-white text-black p-3 rounded-3xl text-sm">
+                    <Tab>Apple©</Tab>
+                    <Tab>Meta©</Tab>
+                    <Tab>COMING SOON</Tab>
+                    <Tab className="px-5">COMING SOON</Tab>
                 </Tab.List>
                 <Tab.Panels>
                     <Tab.Panel>
