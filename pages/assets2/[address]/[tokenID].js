@@ -11,7 +11,7 @@ import Logo from '../../../public/eth-logo.png'
 const NFT = () => {
     const [listing, setListing] = useState()
     const [loading, setLoading] = useState(false)
-    const marketplace = useMarketplace("0x3eE58c91083b4abFc1ee782aF5f9e88C3966117E")
+    const marketplace = useMarketplace("0x60B3ACe3Bd55fcBe006bbd3FD38EC5777501E295")
     const address = useAddress()
     const router = useRouter()
     const {tokenID} = router.query
