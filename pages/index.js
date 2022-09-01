@@ -23,9 +23,14 @@ export default function Home() {
       </Head>
       <Navbar />
       <div>
-            <div className='p-10 font-extralight flex justify-center'>
-                "Any sufficiently advanced technology is indistinguishable from magic." - Arthur C. Clarke
-            </div>
+        <div className='p-10 font-extralight flex justify-center'>
+          "Any sufficiently advanced technology is indistinguishable from magic." - Arthur C. Clarke
+        </div>
+        <div className='flex justify-center pb-5'>
+          <h1 className="font-extralight text-sm">
+            Note: Want to exchange with a different currency? <a className="underline" href="https://decentrala.netlify.app/contact.html">Contact us.</a>
+          </h1>
+        </div>
             <Tab.Group>
                 <Tab.List className="flex justify-between px-2 bg-white text-black p-3 rounded-3xl text-sm">
                     <Tab>Apple©</Tab>
