@@ -10,6 +10,7 @@ import { Tab } from '@headlessui/react'
 import apple from '../public/apple.png'
 import apple2 from '../public/apple2.png'
 import meta from '../public/meta.png'
+import gaming from '../public/gaming.png'
 
 export default function Home() {
   return (
@@ -36,7 +37,6 @@ export default function Home() {
                     <Tab>Apple©</Tab>
                     <Tab>Meta©</Tab>
                     <Tab>Gaming</Tab>
-                    <Tab className="px-5">COMING SOON</Tab>
                 </Tab.List>
                 <Tab.Panels>
                     <Tab.Panel>
@@ -57,10 +57,10 @@ export default function Home() {
                       <Listing1 />
                     </Tab.Panel>
                     <Tab.Panel>
+                      <div className='pb-2 flex justify-center pt-5'> 
+                        <Image src={gaming} alt="" width={1290} height={265} className="rounded-3xl" />
+                      </div>
                       <Listing2 />
-                    </Tab.Panel>
-                    <Tab.Panel>
-                      <Listing3 />
                     </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
