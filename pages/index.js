@@ -33,7 +33,7 @@ export default function Home() {
           </h1>
         </div>
             <Tab.Group>
-                <Tab.List className="flex justify-between px-2 bg-white text-black p-3 rounded-3xl text-sm">
+                <Tab.List className="flex justify-between px-5 bg-white text-black p-3 rounded-3xl text-sm">
                     <Tab>Apple©</Tab>
                     <Tab>Meta©</Tab>
                     <Tab>Gaming</Tab>
