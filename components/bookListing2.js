@@ -6,7 +6,7 @@ import {useRouter} from "next/router"
 
 const Listing2 = () => {
 
-    const marketplace = useMarketplace("")
+    const marketplace = useMarketplace("0x60B3ACe3Bd55fcBe006bbd3FD38EC5777501E295")
     const [listings, setListings] = useState([])
 
     useEffect(() => {
