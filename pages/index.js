@@ -12,6 +12,7 @@ import apple2 from '../public/apple2.png'
 import meta from '../public/meta.png'
 import meta2 from '../public/meta2.png'
 import gaming from '../public/gaming.png'
+import gaming2 from '../public/gaming2.png'
 
 export default function Home() {
   return (
@@ -63,6 +64,9 @@ export default function Home() {
                     <Tab.Panel>
                       <div className='pb-2 flex justify-center pt-5'> 
                         <Image src={gaming} alt="" width={1290} height={265} className="rounded-3xl" />
+                      </div>
+                      <div className='pb-2 flex justify-center pt-5'> 
+                        <Image src={gaming2} alt="" width={1290} height={265} className="rounded-3xl" />
                       </div>
                       <Listing2 />
                     </Tab.Panel>
